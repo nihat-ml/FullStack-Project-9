@@ -7,6 +7,7 @@ import { FavoritesContext } from '../../context/FavoritesContext';
 
 
 
+
 function Favorites() {
   let { favorites, setRemoveFavorite } = useContext(FavoritesContext); 
 

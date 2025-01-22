@@ -28,6 +28,7 @@ function Products() {
                     <div className="card" key={product._id}>
                     <img src={product.image}  width="100%" />
                     <p>{product.title}</p>
+                    
                     <span>${product.price}</span>
                     <div className='btns' style={{display:"flex", gap:"20px", margin:"10px 0px"}}>
                         <button onClick={()=> navigate(`/${product._id}`)} style={{backgroundColor:"blue", color:"white", padding:"5px 10px", border:"none", borderRadius:"5px", fontSize:"15px"}}>Detail</button>
